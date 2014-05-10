@@ -11,9 +11,8 @@
   },
 
   "dependencies" : {
-    "easyrtc"   : "*",
-    "express"   : "*",
-    "socket.io" : "*"
+    
+    "express"   : "*"
   },
 
   "license"     : "BSD2",
