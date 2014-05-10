@@ -5,7 +5,7 @@ var io      = require("socket.io");         // web socket external module
 var easyrtc = require("easyrtc");           // EasyRTC external module
 
 io.configure(function() {
-  io.set('transports', ['websocket']);
+  io.set('transports', ['xhr-polling']);
 });
 
 // Setup and configure Express http server. Expect a subfolder called "static" to be the web root.
